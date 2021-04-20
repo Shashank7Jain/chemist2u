@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+//imports
 import { FormBuilder, Validators, FormGroup } from '@angular/forms';
 
 @Component({
@@ -8,9 +9,11 @@ import { FormBuilder, Validators, FormGroup } from '@angular/forms';
 })
 export class AppComponent implements OnInit {
   title = 'chemist2u';
+  //initialisation
   constructor(private formBuilder: FormBuilder) {}
   ngOnInit() {}
 
+  //created the form and added validations
   form: FormGroup = this.formBuilder.group({
     name: [, { validators: [Validators.required], updateOn: 'change' }],
     email: [
@@ -22,8 +25,8 @@ export class AppComponent implements OnInit {
     ],
     text: [, { validators: [Validators.required], updateOn: 'change' }],
   });
+  //form data is received here
   submitForm() {
-    console.log('hi');
     console.log(this.form.value);
   }
 }

@@ -1,27 +1,23 @@
+#
+
 # Chemist2u
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
 
-## Development server
+Task done in this application are
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Created a simple contact form
 
-## Code scaffolding
+2. Contact form should have 3 fields: name, email and message
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. There should be a submit button at the bottom
 
-## Build
+4. On submit form should simple print form contents to the console
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# Tech used
 
-## Running unit tests
+1. Reactive forms
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Angular material
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Flex box
