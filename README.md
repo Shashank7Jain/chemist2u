@@ -37,3 +37,15 @@ and then you can run the project by running this code.
 3. ng serve
 
 ### This will run the application
+
+# Unit test performed
+
+1. SPEC HAS NO EXPECTATIONS should test if form is true
+2. should test if submit button is disabled
+3. should test if submitForm method has been called
+4. input values check
+5. SPEC HAS NO EXPECTATIONS should test if submit button is enabled when the form is valid
+6. SPEC HAS NO EXPECTATIONS should test if submit button is disabled when the form is invalid -- Wrong format of email
+7. should create the app
+8. validity of form
+9. check for rendering
