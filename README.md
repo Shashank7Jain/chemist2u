@@ -20,4 +20,20 @@ Task done in this application are
 
 2. Angular material
 
-3. Flex box
+3. SCSS
+
+# Steps to run the application
+
+1. After cloning the project just follow the instructions.
+
+cd 'chemist2U'
+
+2. And then install the packages and dependencies.
+
+npm install
+
+and then you can run the project by running this code.
+
+3. ng serve
+
+## This will run the application

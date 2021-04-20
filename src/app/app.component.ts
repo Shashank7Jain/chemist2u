@@ -14,6 +14,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {}
 
   //created the form and added validations
+  //This form contains 3 fields: name, email and message with submit button
   form: FormGroup = this.formBuilder.group({
     name: [, { validators: [Validators.required], updateOn: 'change' }],
     email: [
