@@ -1,0 +1,22 @@
+.wrapper {
+  height: 900px;
+  .img {
+    text-align: center;
+    img {
+      max-width: 50%;
+    }
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 40rem;
+    max-width: 90%;
+    margin: auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+  }
+}

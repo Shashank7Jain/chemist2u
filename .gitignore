@@ -1,46 +1,23 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+*.annot
+*.cmo
+*.cma
+*.cmi
+*.a
+*.o
+*.cmx
+*.cmxs
+*.cmxa
 
-# compiled output
-/dist
-/tmp
-/out-tsc
-# Only exists if Bazel was run
-/bazel-out
+# ocamlbuild working directory
+_build/
 
-# dependencies
-/node_modules
+# ocamlbuild targets
+*.byte
+*.native
 
-# profiling files
-chrome-profiler-events*.json
-speed-measure-plugin*.json
+# oasis generated files
+setup.data
+setup.log
 
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-/typings
-
-# System Files
-.DS_Store
-Thumbs.db
+# Merlin configuring file for Vim and Emacs
+.merlin
