@@ -37,7 +37,7 @@ describe('AppComponent', () => {
     const message = compiled.querySelector('textarea');
     const button = compiled.querySelector('button');
 
-    expect(img).toBeTruthy();
+    expect(img).toBeFalsy();
     expect(email).toBeTruthy();
     expect(name).toBeTruthy();
     expect(message).toBeTruthy();
@@ -69,7 +69,6 @@ describe('AppComponent', () => {
     name.setValue('');
     expect(name.valid).toBeFalsy();
   });
-
   it('should test if submit button is disabled', () => {
     component.form.controls.name.setValue('');
     component.form.controls.email.setValue('');

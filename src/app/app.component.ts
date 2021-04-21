@@ -29,5 +29,8 @@ export class AppComponent implements OnInit {
   //form data is received here
   submitForm() {
     console.log(this.form.value);
+    this.form.reset();
+    this.form.markAsPristine();
+    this.form.markAsUntouched();
   }
 }
